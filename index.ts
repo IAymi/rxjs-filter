@@ -62,6 +62,7 @@ const observer: Observer = {
   error: (err: any) => console.log('observer error', err),
   complete: () => console.log('observer complete'),
 };
+
 // Start coding
 
 import { interval, of } from 'rxjs';
